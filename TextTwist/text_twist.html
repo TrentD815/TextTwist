@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Ye Olde Text Twist </title>
+    
+    <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">-->
+    <link rel="stylesheet" href="https://text-twist-trent815.c9users.io/text_twist.css">
+    <!--form action="word.php" method="POST" enctype="application/x-www-form-urlencoded"-->
+  </head>
+  <body>
+    
+    <!--input type="file" name="dictionary.txt" id="file"-->
+    
+    <div class="block">
+    <h2></h2>
+    <h1>Text Twist</h1>
+    
+    <section id="entering">
+    <p>
+      <input type="hidden" name="query" value="1" />
+      <input type="text" id="entered_word" name="answer" value=""/>
+      <button id="submit_word">Enter</button>
+    </p>
+    <p>
+      <text id="placeholder0">Guesses: </text>
+      <text id="num_guesses">0</text>
+      <text id="placeholder0">|| </text>
+      <text id="placeholder2"> Guessed Correct: </text>
+      <text id="num_guessed_correct">0 </text>
+      <text id="placeholder3">|| </text>
+      <text id="placeholder4"> Words Left: </text>
+      <text id="num_words_left">0</text>
+    </p>
+    </p>
+    <p>
+      
+      <button id="new_rack">Get a new rack</button>
+      <button id="shuffle">Shuffle rack</button>
+      
+    </p>
+    </section>
+    
+    <section id="status">
+    <p> <h2><text id="your_rack"class="black underline">Current Rack:</text></h2><p>
+      <h3><ul id="racks"></ul></h3>
+      <h3><p> <text id="active_rack" value=""</p></h3>
+      <p> <h2><text id="guess"class="black underline">Guessed Words:</text></h2></p>
+      <p> <text id="disclaimer" > (Correct answers in green, incorrect in red) </text></p>
+     <h3> <li id = "guessed_words" value = ""> </li></h3>
+     
+     
+    </section>
+    
+    </div>
+    <script type="text/javascript" src="https://text-twist-trent815.c9users.io/text_twist.js">
+  
+    </script>
+    
+  </body>
+  
+</html>

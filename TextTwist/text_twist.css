@@ -1,0 +1,46 @@
+/*block {*/
+/*    text-align: center;*/
+    
+/*}*/
+/*.block:before {*/
+/*    display: inline-block;*/
+/*    height: 100%;*/
+/*    vertical-align: middle;*/
+/*}*/
+/*.centered {*/
+/*    display:inline block;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+body {
+    background: linear-gradient(-90deg, blue, aqua);
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+    /*border: solid 2px lightgray;*/
+    font-size: 55px;
+    font-family: cursive;
+    display:inline;
+}
+button {
+    background-color: lightgreen;
+    border-radius: 25%;
+}
+
+.black {
+    color: black;
+}
+.underline{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
